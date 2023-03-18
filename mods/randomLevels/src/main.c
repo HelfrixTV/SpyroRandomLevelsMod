@@ -271,7 +271,6 @@ void Do_Tick(){
 void randomizeGems(){
 	
 	current_gemStack = &gem_stack;
-	int t = 0;
 	for(int g = 0; g < 110; g++){
 		char actualValue = *(char *)(*current_gemStack + 0x36);
 		if(actualValue == 0x53 || actualValue == 0x54 || actualValue == 0x55 || actualValue == 0x56 || actualValue == 0x57){
