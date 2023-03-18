@@ -1,5 +1,5 @@
-//#include <common.h> // I really don't want to add this to my PATH
-#include "../../../include/common.h" // Ugly hack, please ignore
+//#include <common.h>
+#include "../../../include/common.h"
 #include "data.c"
 
 int hasRandom = 0;
@@ -250,7 +250,6 @@ void Do_Tick(){
 		for(int i = 0; i < 29; i++){
 			if(currentPortalLevels[i] == currentLevel){
 				if(vortexId == vortexIds[i]){
-					//currentLevel = currLvl;
 					exitPortalP = currLvl;
 					break;
 					
