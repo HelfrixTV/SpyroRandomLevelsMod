@@ -1,12 +1,12 @@
 gameState = 0x800757d8;
 isLoadingLevel = 0x800756d0;
 loadingLevelState = 0x80075864;
-colectedGemValue = 0x80075860;
+collectedGemValue = 0x80075860;
 totalLives = 0x8007582c;
-colectedDragons = 0x80075751;
-colectedEggs = 0x80075810;
+collectedDragons = 0x80075751;
+collectedEggs = 0x80075810;
 hasKey = 0x80075830;
-colectedOrbs = 0x800758e8;
+collectedOrbs = 0x800758e8;
 sparxLevel = 0x80078bbc;
 
 currentSpyroyCord = 0x80078a60;
