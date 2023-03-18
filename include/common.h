@@ -56,7 +56,7 @@ enum LEVEL_IDS {
 extern int gameState;
 extern int isLoadingLevel;
 extern int loadingLevelState;
-extern int colectedGemValue;
+extern int collectedGemValue;
 extern int totalLives;
 extern int sparxLevel;
 extern int collectedDragons;
