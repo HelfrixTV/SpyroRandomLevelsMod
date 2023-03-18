@@ -1,0 +1,4 @@
+american, exe, 0x80073160, 0x0, src/CdReader.c
+american, exe, 0x8001f150, 0x0, src/tickhook.s
+american, exe, 0x8002eee4, 0x0, src/gameoverhook.s
+american, kernal, 0x8000c000, 0x0, src/main.c, mod.bin

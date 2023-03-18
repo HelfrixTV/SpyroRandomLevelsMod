@@ -1,0 +1,128 @@
+gameState = 0x800757d8;
+isLoadingLevel = 0x800756d0;
+loadingLevelState = 0x80075864;
+colectedGemValue = 0x80075860;
+totalLives = 0x8007582c;
+colectedDragons = 0x80075751;
+colectedEggs = 0x80075810;
+hasKey = 0x80075830;
+colectedOrbs = 0x800758e8;
+sparxLevel = 0x80078bbc;
+
+currentSpyroyCord = 0x80078a60;
+currentSpyroxCord = 0x80078a58;
+currentSpyrozCord = 0x80078a5c;
+currentSpyroRot = 0x80078b74;
+
+toastyMouthVortex = 0x8007a6a9;
+toastyMouthDragon = 0x8007f4c4;
+thMouth = 0x8007a6c7;
+ggMouth = 0x8007a6c8;
+
+glMouthGems = 0x80081880;
+glMouthDragons = 0x80081898;
+glMouthEggs = 0x800818b0;
+
+
+aBallReq = 0x80082920;
+
+pBallReq = 0x800845c0;
+
+mBallReq = 0x8008492c;
+
+bBallReq = 0x800832ec;
+
+dBallReq = 0x800854c8;
+
+gem_stack = 0x800720f4;
+gemCount = 0x800756c8;
+collGemStack = 0x80077db8;
+
+rand = 0x8006272c;
+srand = 0x8006275c;
+DrawBox = 0x8001860c;
+DrawText = 0x800181ac;
+DrawText2 = 0x80017fe4;
+PrintF = 0x80062fd4;
+SPrintF = 0x80062fd4;
+
+memset = 0x80016914;
+ptrTextUnk = 0x800720f4;
+CopyHudToShaded = 0x80018880;
+DrawShadedMobys = 0x80022a2c;
+
+flyMenuOption  = 0x80077de0;
+pauseMenuOption = 0x80075720;
+
+currentButton = 0x80077378;
+heldButton = 0x80075c8a;
+
+buttonVar13 = 0x80078ad0;
+flyinVar = 0x80076ea8;
+
+sysClock = 0x80076b78;
+
+exitPortalP = 0x8007596c;
+currentLevel = 0x800758b4;
+
+endCreditsGGLevelId = 0x80033458;
+endCreditsGLLevelId = 0x8003345c;
+
+onGround = 0x80078bb4;
+vortexChange = 0x80078c4c;
+vortexId = 0x80078c58;
+gopntr = 0x8002eee8;
+
+shPortal = 0x800c12b4;
+dhPortal = 0x800c12a8;
+tsPortal = 0x800c12c0;
+toaPortal = 0x800c129c;
+sfPortal = 0x800c12cc;
+
+dcPortal = 0x800bfc48;
+ctPortal = 0x800bfc54;
+icPortal = 0x800bfc60;
+shePortal = 0x800bfc6c;
+nfPortal = 0x800bfc78;
+
+arPortal = 0x800c627c;
+hcPortal = 0x800c6294;
+wpPortal = 0x800c6288;
+bloPortal = 0x800c6264;
+cfPortal = 0x800c6270;
+
+tvPortal = 0x800b558c;
+mbPortal = 0x800b5574;
+ttPortal = 0x800b5580;
+metPortal = 0x800b5568;
+wfPortal = 0x800b5598;
+
+dpPortal = 0x800c5ecc;
+lcPortal = 0x800c5ee4;
+htPortal = 0x800c5efc;
+jacPortal = 0x800c5ed8;
+ifPortal = 0x800c5ef0;
+
+gcPortal = 0x800a69d8;
+thPortal = 0x800a69b4;
+ggPortal = 0x800a69c0;
+glPortal = 0x800a69cc;
+
+mainMenuState = 0x80078d78;
+
+CdRead = 0x8006606C;
+CdInit = 0x8006397C;
+CdReadCallback = 0x8006623C;
+CdStatus = 0x80063A8C;
+CdSync = 0x80063BD8;
+CdControl = 0x80063C48;
+CdControlB = 0x80063EAC;
+CdDataCallback = 0x80064050;
+CdIntToPos = 0x80064094;
+CdPosToInt = 0x80064198;
+Cd_Sync = 0x800647A0;
+CdGetSector = 0x80064010;
+
+musicSectors = 0x8006f200;
+
+hook_loc = 0x8001f150;
