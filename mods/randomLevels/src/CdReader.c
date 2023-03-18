@@ -11,12 +11,11 @@ int SectorsRead = 0;
 
 void read_cb(unsigned char status, unsigned char *result){
     CdReadCallback(callback); //for some reason this keeps the read_cb function from happening a second time
-    //CdIntToPos(*(&musicSectors + 3), &loc); //takes the abslute sector numbers of the music from ram and converts them into the CdlLOC format
-    //CdControlB(CdlReadS, (void *)&loc, 0); //Starts reading from the disk at the specified location
-    //CdControlB(CdlSetmode, (char *)&mode, 0); //puts the Cd subsystem in the right mode to play music
+    CdIntToPos(*(&musicSectors + 3), &loc); //takes the abslute sector numbers of the music from ram and converts them into the CdlLOC format
+    CdControlB(CdlReadS, (void *)&loc, 0); //Starts reading from the disk at the specified location
+    CdControlB(CdlSetmode, (char *)&mode, 0); //puts the Cd subsystem in the right mode to play music
     // CdControlB(CdlSetmode, (void*)&(const int){0xC8}, 0); //Potential alternative to creating the variable mode and pointing to it
 	
-	//SectorsRead++;
 	if(SectorsRead == SectorsToRead){
 		initialised = 1;
 	}
