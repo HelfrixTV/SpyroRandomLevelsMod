@@ -22,7 +22,7 @@ All the dragon heads in Gnorc Gnexus have also had it's requirements removed for
 
 4. Put your spyroRandomLevels.bin and spyroRandomLevels.cue files into the same directory and launch like any other ps1 game in your emulator of choice!
 
-note for duckstation emulation: You need to set the settings->Console->CD-ROM Emulation->Seek Speedup to anything but default
+Note for duckstation emulation: You need to set the settings->Console->CD-ROM Emulation->Seek Speedup to anything other than default
 
 # Compiling
 
